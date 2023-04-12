@@ -115,6 +115,10 @@ html {
   .input_alert{
     background:rgba(230,169,171,.5)
   }
+  /* TOOD[宿題]: 何もエラーが無いときには、エラーメッセージの領域が表示されないように */
+  .invisible{
+    visibility:collapse;
+  }
   .visible_alert{
     visibility: visible;
   }
