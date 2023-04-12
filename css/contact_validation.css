@@ -82,6 +82,7 @@ html {
     color: #fff;
     padding: 20px;
     background: #d14539;
+    visibility: hidden;
   }
   .header_nav {
     background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
@@ -108,9 +109,12 @@ html {
     text-align: center;
   }
   .error_message{
-    color:red:#42210b
-    background:red:#42210b
+    color:white;
+    background:red;
   }
   .input_alert{
     background:rgba(230,169,171,.5)
+  }
+  .visible_alert{
+    visibility: visible;
   }
