@@ -78,3 +78,39 @@ html {
   .reset_btn {
     background: #e6e6e6;
   }
+  .alert {
+    color: #fff;
+    padding: 20px;
+    background: #d14539;
+  }
+  .header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .drop_menu_btn {
+    height: 60px;
+  }
+  .drop_menu {
+    display: none;
+    background: #42210b;
+  }
+  .drop_menu_item {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  .error_message{
+    color:red:#42210b
+    background:red:#42210b
+  }
+  .input_alert{
+    background:rgba(230,169,171,.5)
+  }
